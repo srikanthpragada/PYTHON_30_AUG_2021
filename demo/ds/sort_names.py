@@ -2,7 +2,7 @@ names = []
 
 while True:
     name = input("Enter name [end to stop] :")
-    if name == 'end':
+    if name.lower() == 'end':
         break
 
     names.append(name)
