@@ -1,7 +1,6 @@
 def add(a, b):
     pass
 
-
 def add(a, b, c):
     pass
 
