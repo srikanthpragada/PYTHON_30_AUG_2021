@@ -17,18 +17,20 @@ class Student:
     def payment(self, amount):
         self.feepaid += amount
 
-    def total_fee(self):
+    @property
+    def totalfee(self):
         return Student.courses[self.course]
 
-    def due_amount(self):
-        return self.total_fee() - self.feepaid
+    @property
+    def due(self):
+        return self.totalfee - self.feepaid
 
 
 s1 = Student("Scott", "DS")  # Create object and call constructor
 # print(s1.feepaid)
 print(s1)
 s1.payment(3000)
-print(s1.due_amount())
+print(s1.due)  # Property
 
 s2 = Student("Jack", "Java", 4000)
 print(s2)  # s2.__str__()
