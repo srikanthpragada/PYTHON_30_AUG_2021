@@ -12,7 +12,7 @@ class C:
         print("Process in C")
 
 
-class D(B, c):
+class D(B, C):
     pass
 
 
