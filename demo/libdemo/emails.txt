@@ -1,4 +1,6 @@
 bill@microsoft.com,jeff@amazon.com,larry@google.com
-sergy@google.com,elon@tesla.com,larry@oracle.com
-elon@tesla.com,micheal@dell.com,larry@oracle.com
+sergy@google.com,elon@tesla.com    ,larry@oracle.com
+elon@tesla.com,  micheal@dell.com,larry@oracle.com
+steve,scott@microsoft.com
+
 

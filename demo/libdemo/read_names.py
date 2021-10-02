@@ -1,6 +1,5 @@
-f = open("names.txt", "rt")  # filename, mode
+# Print file contents
 
-for n in f.readlines():
-    print(n.strip())
-
-f.close()
+with open("names.txt", "rt") as f:
+    for n in f.readlines():
+        print(n.strip())
