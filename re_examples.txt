@@ -22,22 +22,23 @@ Quantity
 
 [A-Z]+       A,XYZ          abc,12              one or more
 
-[A-Z]?       A              AA
+[A-Z]?       A              AA                  zero or one 
 		     12		
              
-[A-Z]*		 ABC  			abc
+[A-Z]*		 ABC  			abc                 Zero or more 
 
 \d+          12             ab                  Digit
  
 \D+          A-C 			123                 Non-digit 
 
-\w+          ab_12          ,
+\w+          ab_12          ,                   Word char
 
-\W           *              A
+\W           *              A                   Non-word char
 
-\s			 \n 			a
+\s			 \n 			a                   Whitespace
 
-\S           a              \n
+\S           a              \n                  Non-whitespace 
+
 
 
 
