@@ -1,0 +1,17 @@
+<products>
+    <product>
+        <name>First Product</name>
+        <price>5000</price>
+        <qoh>30</qoh>
+    </product>
+     <product>
+        <name>Second Product</name>
+        <price>10000</price>
+        <qoh>3</qoh>
+    </product>
+     <product>
+        <name>Third Product</name>
+        <price>50000</price>
+        <qoh>10</qoh>
+    </product>
+</products>
