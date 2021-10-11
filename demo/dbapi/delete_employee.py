@@ -5,7 +5,7 @@ con = sqlite3.connect(dbutil.DBNAME)
 cur = con.cursor()
 id = int(input("Enter id :"))
 try:
-    cur.execute("delete from employees where id = ?", (id,))
+    cur.execute(f"delete from {dbutil.TABLENAME} where id = ?", (id,))
     if cur.rowcount == 1:
         print("Deleted Successfully!")
         con.commit()
